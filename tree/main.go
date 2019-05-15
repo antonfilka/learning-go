@@ -148,6 +148,7 @@ func getIndent(level int, isLastElement bool, isLastParents []bool) string {
 	if isLastElement {
 		lineBeginner = "└"
 	}
+	
 
 	ownIndent := lineBeginner + spacer
 
